@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GudLife - Premium Sugar Manufacturing</title>
+    <meta name="description" content="GudLife - Leading sugar manufacturing company specializing in premium white sugar, brown sugar, and powdered sugar. Quality products for businesses worldwide.">
+    <meta name="keywords" content="sugar manufacturing, white sugar, brown sugar, powdered sugar, sugar production, industrial sugar">
+    <meta name="author" content="GudLife">
+    <title>GudLife - Premium Sugar Manufacturing | Industrial Sugar Solutions</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -32,17 +35,20 @@
 
     <!-- Hero Section -->
     <section id="home" class="hero">
+        <div class="hero-overlay"></div>
         <div class="hero-content">
-            <h1>Welcome to GudLife</h1>
-            <h2>Premium Sugar Manufacturing Excellence</h2>
-            <p>We specialize in producing high-quality powdered sugar and premium white & brown sugar for businesses worldwide.</p>
-            <div class="hero-buttons">
-                <a href="#products" class="btn btn-primary">Our Products</a>
-                <a href="#contact" class="btn btn-secondary">Get Quote</a>
+            <div class="hero-text">
+                <h1>Welcome to GudLife</h1>
+                <h2>Premium Sugar Manufacturing Excellence</h2>
+                <p>We are a new, passionate sugar manufacturing company dedicated to producing high-quality powdered sugar and premium white & brown sugar. Starting our journey with a commitment to excellence and quality.</p>
+                <div class="hero-buttons">
+                    <a href="#products" class="btn btn-primary">Our Products</a>
+                    <a href="#contact" class="btn btn-secondary">Get Quote</a>
+                </div>
             </div>
-        </div>
-        <div class="hero-image">
-            <div class="sugar-jar"></div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Sugar crystals and sugar manufacturing" loading="lazy">
+            </div>
         </div>
     </section>
 
@@ -51,9 +57,13 @@
         <div class="container">
             <h2 class="section-title">About GudLife</h2>
             <div class="about-content">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Sugar production and processing facility" loading="lazy">
+                </div>
                 <div class="about-text">
-                    <h3>Your Trusted Sugar Manufacturing Partner</h3>
-                    <p>GudLife is a leading sugar manufacturing company dedicated to producing the highest quality powdered sugar and premium white & brown sugar. With years of experience in the industry, we have built a reputation for excellence, reliability, and customer satisfaction.</p>
+                    <h3>Your New Sugar Manufacturing Partner</h3>
+                    <p>GudLife is a fresh, innovative sugar manufacturing company starting its journey in the market. We are dedicated to producing the highest quality powdered sugar and premium white & brown sugar. As a new company, we bring fresh perspectives, modern technology, and an unwavering commitment to quality.</p>
+                    <p>Our modern manufacturing facilities are equipped with the latest technology to ensure consistent quality and purity in every batch. We are building our reputation from the ground up, focusing on customer satisfaction, sustainable practices, and delivering products that exceed expectations.</p>
                     
                     <div class="features">
                         <div class="feature">
@@ -67,9 +77,9 @@
                             <p>Rigorous quality control processes ensuring premium products</p>
                         </div>
                         <div class="feature">
-                            <i class="fas fa-globe"></i>
-                            <h4>Global Reach</h4>
-                            <p>Serving clients worldwide with reliable delivery solutions</p>
+                            <i class="fas fa-seedling"></i>
+                            <h4>Fresh Start</h4>
+                            <p>New company with modern approach and innovative solutions</p>
                         </div>
                     </div>
                 </div>
@@ -83,7 +93,9 @@
             <h2 class="section-title">Our Products</h2>
             <div class="products-grid">
                 <div class="product-card">
-                    <div class="product-image white-sugar"></div>
+                    <div class="product-image white-sugar-img">
+                        <img src="images/white-sugar.jpg" alt="Premium white sugar crystals in burlap sack" loading="lazy">
+                    </div>
                     <div class="product-content">
                         <h3>White Sugar</h3>
                         <p>Premium refined white sugar with consistent quality and purity. Perfect for baking, beverages, and food processing industries.</p>
@@ -96,7 +108,9 @@
                 </div>
                 
                 <div class="product-card">
-                    <div class="product-image brown-sugar"></div>
+                    <div class="product-image brown-sugar-img">
+                        <img src="images/brown-sugar.jpg" alt="Rich brown sugar in wooden bowl with spoon" loading="lazy">
+                    </div>
                     <div class="product-content">
                         <h3>Brown Sugar</h3>
                         <p>Rich, natural brown sugar with authentic flavor and color. Ideal for baking, confectionery, and specialty food products.</p>
@@ -109,7 +123,9 @@
                 </div>
                 
                 <div class="product-card">
-                    <div class="product-image powdered-sugar"></div>
+                    <div class="product-image powdered-sugar-img">
+                        <img src="images/powdered-sugar.jpg" alt="Fine white powdered sugar in wooden spoon" loading="lazy">
+                    </div>
                     <div class="product-content">
                         <h3>Powdered Sugar</h3>
                         <p>Finely ground powdered sugar perfect for confectionery, baking, and decorative applications. Our specialty product.</p>
@@ -124,31 +140,63 @@
         </div>
     </section>
 
+    <!-- Statistics Section -->
+    <section class="statistics">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number" data-target="100">0</div>
+                    <div class="stat-label">Tons Production Capacity</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="0">0</div>
+                    <div class="stat-label">Happy Clients</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="1">0</div>
+                    <div class="stat-label">Year in Business</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="3">0</div>
+                    <div class="stat-label">Product Varieties</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Services Section -->
     <section id="services" class="services">
         <div class="container">
             <h2 class="section-title">Our Services</h2>
             <div class="services-grid">
                 <div class="service-card">
-                    <i class="fas fa-cogs"></i>
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
                     <h3>Manufacturing</h3>
                     <p>We manufacture high-quality sugar products using advanced processing technology and strict quality control measures.</p>
                 </div>
                 
                 <div class="service-card">
-                    <i class="fas fa-users"></i>
+                    <div class="service-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
                     <h3>Client Partnership</h3>
-                    <p>We actively seek and build long-term partnerships with clients who value quality, reliability, and excellence.</p>
+                    <p>We are actively seeking our first clients and building partnerships with businesses who value quality, reliability, and want to grow with us.</p>
                 </div>
                 
                 <div class="service-card">
-                    <i class="fas fa-truck"></i>
+                    <div class="service-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
                     <h3>Distribution</h3>
                     <p>Reliable delivery services ensuring your sugar products reach you on time, every time.</p>
                 </div>
                 
                 <div class="service-card">
-                    <i class="fas fa-headset"></i>
+                    <div class="service-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
                     <h3>Customer Support</h3>
                     <p>Dedicated support team to assist with orders, technical specifications, and product information.</p>
                 </div>
@@ -163,14 +211,22 @@
             <div class="contact-content">
                 <div class="contact-info">
                     <h3>Get in Touch</h3>
-                    <p>Ready to partner with GudLife for your sugar manufacturing needs? Contact us today!</p>
+                    <p>Ready to be part of our journey? As a new company, we're looking for partners who want quality products and a fresh approach. Contact us today!</p>
                     
                     <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-user"></i>
+                            <div>
+                                <h4>Contact Person</h4>
+                                <p>Piyush Chauhan</p>
+                            </div>
+                        </div>
+                        
                         <div class="contact-item">
                             <i class="fas fa-phone"></i>
                             <div>
                                 <h4>Phone</h4>
-                                <p>+1 (555) 123-4567</p>
+                                <p>+91 8X7XX 4X2X1</p>
                             </div>
                         </div>
                         
@@ -178,7 +234,7 @@
                             <i class="fas fa-envelope"></i>
                             <div>
                                 <h4>Email</h4>
-                                <p>info@gudlife.com</p>
+                                <p>piyushchaunhan98@gmail.com</p>
                             </div>
                         </div>
                         
@@ -186,7 +242,7 @@
                             <i class="fas fa-map-marker-alt"></i>
                             <div>
                                 <h4>Address</h4>
-                                <p>123 Sugar Street, Sweet City, SC 12345</p>
+                                <p>Adarsh Nagar Kashipur Uttrakhand</p>
                             </div>
                         </div>
                     </div>
@@ -219,7 +275,7 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <h3>GudLife</h3>
-                    <p>Premium sugar manufacturing excellence for businesses worldwide.</p>
+                    <p>A new sugar manufacturing company committed to quality and excellence. Starting fresh, building trust.</p>
                 </div>
                 <div class="footer-section">
                     <h4>Quick Links</h4>
